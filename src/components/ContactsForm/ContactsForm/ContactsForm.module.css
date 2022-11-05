@@ -1,0 +1,30 @@
+.conactForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  width: 400px;
+}
+
+.labelForm {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #ffffff;
+  font-weight: 500;
+}
+.inputForm {
+  width: 230px;
+  height: 20px;
+  margin-left: 20px;
+  outline: none;
+  border: 1px solid #1083eb8a;
+  border-radius: 5px;
+}
+.inputForm:hover,
+.inputForm:focus {
+  background-color: #1083eb8a;
+}
+.inputForm:hover .labelForm,
+.inputForm:focus .labelForm {
+  color: #1083eb8a;
+}
